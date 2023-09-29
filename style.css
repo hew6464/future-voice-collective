@@ -1,0 +1,29 @@
+.body_css{
+    overflow:hidden;
+}
+
+.splash{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.splash img{
+    position: fixed;
+    z-index: -1;
+
+}
+
+.splash h1{
+    font-family: Lora;
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+}
+
+.splash p{
+    font-family: Open Sans;
+    margin: 20px 50px 0px 50px;
+    text-align: center;
+}
