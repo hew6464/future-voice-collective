@@ -1,11 +1,9 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
-    font-family: Open+Sans;
-}
 
 .first_view{
     min-height: 100vh;
@@ -18,18 +16,18 @@ p {
     justify-content: space-between;
     align-items: center;
     margin: 15px 20px;
-    font-family: Open+Sans;
 }
 
 .top_nav .logo img{
-    height: 50px;
+    height: 55px;
 }
 
 .top_nav .menu a{
     text-decoration: none;
     font-weight: bold;
-    margin: 10px;
+    margin: 30px;
     font-weight: bold;
+    color: black;
 }
 
 .top_nav .menu .menu_special{
@@ -52,6 +50,7 @@ p {
 .s1_p1{
     justify-content: center;
     flex-direction: column;
+    margin-right: 70px;
 }
 
 .s1_p1 p, a{
@@ -66,12 +65,13 @@ p {
 
 .s1_p1 .above{
     font-size: 40px;
-    font-family: Open+Sans;
     font-weight: bold;
+    color: brown;
 }
 
 .s1_p1 .below{
     font-size: 20px;
+    color: navy;
 }
 
 .s1_p1 .button{
@@ -95,7 +95,7 @@ p {
 
 .s1_p2 img{
     max-width: 550px;
-    margin: 0 50px;
+    margin: 0 30px 0 50px;
 }
 
 .grad{
