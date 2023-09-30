@@ -1,0 +1,127 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px 15px 20px;
+    margin: 0px;
+    /* border-width: 0px 0px 2px 0px;
+    border-color: rgb(199, 199, 199);
+    border-style: solid;
+    background-color: white; */
+    z-index: 1000;
+}
+.logo img{
+    height: 60px;
+    margin: 8px;
+}
+.menu a{
+    font-size: 17px;
+    font-weight: bolder;
+    margin: 15px;
+    color: black;
+    text-decoration: none;
+    font-family: Open+Sans;
+}
+
+.menu_button{
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 7px;
+    padding: 8px 12px 8px 12px;
+
+}
+
+.section1{
+    /* background-color: aqua; */
+    display: flex;
+    flex: 1;
+}
+
+.section1 > * {
+    padding: 30px;
+}
+
+.s1p1{
+    display: flex;
+    /* background-color: antiquewhite; */
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.s1p2{
+    /* background-color: brown; */
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.s1p2 img{
+    width: 600px;
+}
+
+
+.s1p1 p{
+    margin-bottom: 20px;
+}
+
+.insert{
+    font-family: Open+Sans;
+    font-size: 35px;
+    font-weight: bold;
+    color: brown;
+}
+
+.title{
+    font-family: Lora;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.under{
+    font-family: Open+Sans;
+    font-size: 20px;
+    color: navy;
+}
+
+.s1_btn{
+    max-width: 200px;
+    font-family: Open+Sans;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: brown;
+    background-color: rgb(255, 185, 185);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 5px 13px 1px rgba(0, 0, 0, 0.20);
+    margin-top: 15px;
+}
+
+.hp_grad{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: -10;
+}
+
+.first_view{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
