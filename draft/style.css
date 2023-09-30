@@ -1,0 +1,107 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px 15px 20px;
+    margin: 0px;
+    border-width: 0px 0px 2px 0px;
+    border-color: rgb(199, 199, 199);
+    border-style: solid;
+    background-color: white;
+    z-index: 1000;
+}
+.logo img{
+    height: 60px;
+}
+.menu a{
+    font-size: 17px;
+    font-weight: bold;
+    margin: 15px;
+    color: black;
+    text-decoration: none;
+    font-family: Open Sans;
+}
+.menu_button{
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 7px;
+    padding: 5px;
+
+}
+
+.section1{
+    background-color: aqua;
+    display: flex;
+}
+
+.section1 > * {
+    padding: 30px;
+}
+
+.s1p1{
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.s1p2{
+    background-color: brown;
+    align-items: flex-end;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.s1p2 img{
+    width: 500px;
+}
+
+
+.s1p1 p{
+    margin-bottom: 20px;
+}
+
+.insert{
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: bold;
+    color: brown;
+}
+
+.title{
+    font-family: Lora;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.under{
+    font-family: Open Sans;
+    font-size: 20px;
+    color: navy;
+}
+
+.s1_btn{
+    max-width: 150px;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    color: brown;
+    background-color: rgb(255, 185, 185);
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 5px 13px 1px rgba(0, 0, 0, 0.20);
+}
+
+.hp_grad{
+    margin: 0px;
+    padding: opx;
+    position: absolute;
+    z-index: -10;
+}
