@@ -143,3 +143,8 @@
 
 }
 
+@media (max-width: 475px){
+    .top_nav img{
+        max-height: 50px;
+    }
+}
